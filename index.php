@@ -39,7 +39,7 @@ get_header(); ?>
                     </div>
                 </div>
                 <div class="service-card">
-                    <img id="service-plain-img" src="static/services/Group 51.png" alt="about to come">
+                    <img id="service-plain-img" src=<?php echo get_template_directory_uri() . "/assets/images/services/Group51.png" ?> alt="about to come">
                     <div class="service-card-heading" id="service-plain-heading">
                         <div class="active-service">
                             <h3>Best Flights</h3>
@@ -91,7 +91,7 @@ get_header(); ?>
                         <p class="destination-info"><span class="destination-loc-price">Rome, Italy</span><span class="destination-loc-price">$5,42k</span></p>
                         <img src=<?php echo get_template_directory_uri() . "/assets/images/destination/navigation1.png" ?> alt=""><span class="destination-time">10 Days Trip</span>
                     </div>
-                    <img id="destination-decor" src="static/destination/Decore.svg" alt="">
+                    <img id="destination-decor" src=<?php echo get_template_directory_uri() . "/assets/images/destination/Decore.svg" ?> alt="">
                 </div>
             </div>
         </div>
@@ -153,7 +153,7 @@ get_header(); ?>
                         </div>
                     </div>
                     <p id="rome-completed"><span>40% </span> completed</p>
-                    <img id="rome-bar" src="static/booktrip/Group 3.svg" alt="">
+                    <img id="rome-bar" src="static/booktrip/Group3.svg" alt="">
                 </div>
             </div>
         </div>
@@ -213,9 +213,9 @@ get_header(); ?>
                 <input type="email" placeholder="Your email">
                 <button>Subscribe</button>
             </div>
-            <img id="subscribe-icon" src="static/subscribe/Group 77.png" alt="">
+            <img id="subscribe-icon" src=<?php echo get_template_directory_uri() . "/assets/images/subscribe/Group77.png" ?> alt="">
         </div>
-        <img src=<?php echo get_template_directory_uri() . "/assets/images/subscribe/MaskGroup1.svg" ?> alt="" id="sub-cir-1" class="sub-cir">
+        <img src=<?php echo get_template_directory_uri() . "/assets/images/subscribe/MaskGroup.svg" ?> alt="" id="sub-cir-1" class="sub-cir">
         <img src=<?php echo get_template_directory_uri() . "/assets/images/subscribe/MaskGroup.svg" ?> alt="" id="sub-cir-2" class="sub-cir">
     </section>
 <?php endif; ?>

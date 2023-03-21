@@ -263,17 +263,17 @@
 }
 
 #destination-card-1{
-    background: url("static/destination/Rectangle 14.png");
+    background: url("../images/destination/Rectangle 14.png");
     background-repeat: no-repeat;
 }
 
 #destination-card-2{
-    background: url("static/destination/Rectangle\ 14\ \(1\).png");
+    background: url("../images/destination/Rectangle\ 14\ \(1\).png");
     background-repeat: no-repeat;
 }
 
 #destination-card-3{
-    background: url("static/destination/Rectangle\ 14\ \(2\).png");
+    background: url("../images/destination/Rectangle\ 14\ \(2\).png");
     background-repeat: no-repeat;
 }
 
