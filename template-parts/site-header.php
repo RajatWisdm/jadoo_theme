@@ -2,7 +2,7 @@
     <img id="header-bg" src="static/Decore.png" alt="">
     <nav>
         <div id="nav-box">
-            <img src="static/Jadoo.png" alt="">
+            <img src=<?php echo get_template_directory_uri() . "/assets/images/Jadoo.png"?> alt="">
             <div id="nav-items-1">
                 <a href="#">Destinations</a>
                 <a href="#">Hotels</a>
@@ -12,7 +12,7 @@
             <div id="nav-items-2">
                 <a href="#">Login</a>
                 <a href="#" id="signup-btn">Sign up</a>
-                <a href="#" id="en">En</a><img src="static/Vector 1.png" alt="">
+                <a href="#" id="en">En</a><img src=<?php echo get_template_directory_uri() . "/assets/images/Vector1.png" ?> alt="">
             </div>
         </div>
         <div class="ham-container">
@@ -37,24 +37,24 @@
         <div id="poster-content">
             <div id="poster-heading">
                 <h2>Best Destinations around the world</h2>
-                <h1>Travel, enjoy<span id="header-under-img"><img src="static/header/Vector.svg" alt=""></span> and live a new and full life</h1>
+                <h1>Travel, enjoy<span id="header-under-img"><img src=<?php echo get_template_directory_uri() . "/assets/images/header/Vector.svg" ?> alt=""></span> and live a new and full life</h1>
             </div>
             <p id="poster-text">Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.</p>
             <div id="poster-btn">
                 <button id="find-out-btn">Find out more</button>
                 <div id="play">
-                    <img src="static/header/Play button.png" alt="">
+                    <img src=<?php echo get_template_directory_uri() . "/assets/images/header/Playbutton.png" ?> alt="">
                     <span id="play-btn">Play Demo</span>
                 </div>
             </div>
         </div>
         <div id="poster-img">
-            <img src="static/Traveller 1.png" alt="">
+            <img src=<?php echo get_template_directory_uri() . "/assets/images/Traveller1.png" ?> alt="">
             <div id="plain-1" class="poster-plain">
-                <img src="static/header/Group.svg" alt="">
+                <img src="/assets/images/header/Group.svg" alt="">
             </div>
             <div id="plain-2" class="poster-plain">
-                <img src="static/header/Group.svg" alt="">
+                <img src="/assets/images/header/Group.svg" alt="">
             </div>
         </div>
     </div>
